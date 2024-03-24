@@ -7,10 +7,10 @@
     <title>Portfolio</title>
 <style>
 body{color: aliceblue;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(5, 13, 39);
 }
 
-span{color: red;}
+span{color: rgb(25, 108, 224);;}
 
 .hme{text-decoration:none;
     color: aliceblue;
@@ -42,9 +42,9 @@ span{color: red;}
 }
 
 .hi{text-decoration: none;
-    color: red;
-    background-color: transparent;
-    border:2px solid red;
+    color: rgb(0, 0, 0);
+    background-color:rgb(25, 108, 224);;
+    border:2px solid rgb(25, 108, 224);;
     padding-left: 28px;
     padding-right:28px;
     padding-top: 12px;
@@ -52,74 +52,107 @@ span{color: red;}
     font-family:sans-serif;
     font-weight: 700;
     border-radius: 20px;
+    margin-left:4px;
 }
-.hi:hover{background-color:red;
-color: black;}
+.hi:hover{background-color:transparent;
+color:rgb(25, 108, 224);}
+
+.dl{text-decoration: none;
+    color: rgb(25, 108, 224);;
+    background-color: transparent;
+    border:2px solid rgb(25, 108, 224);;
+    padding-left: 25px;
+    padding-right:25px;
+    padding-top: 12px;
+    padding-bottom:12px;
+    font-family:sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.dl:hover{background-color:rgb(25, 108, 224);
+    color: black;}
+.dl:active{background-color: ;}
 
 .spi{border-radius: 50%;
-    height:300px;
-    width:300px;
+    height:280px;
     margin-top: 30px;
+    width:270px;
+    border:3px solid rgb(25, 108, 224);
+    
+}
+.spii{height:90%;
+    width:87%;
+    border-radius:50%;
+    border-right:2px solid  rgb(25, 108, 224);
+    border-left:2px solid  rgb(25, 108, 224);
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding-bottom:22px;
+    margin-left: 24px;
+    
 }
 
 .fb{background-color:transparent;
-    border:2px solid red;
+    border:2px solid rgb(25, 108, 224);
     text-decoration: none;
     border-radius:50%;
     padding: 6px;
-    color:red;}
+    color:rgb(25, 108, 224);;}
 
 .tw{background-color:transparent;
-    border:2px solid red;
+    border:2px solid rgb(25, 108, 224);;
     text-decoration: none;
     border-radius:50%;
     padding: 6px;
-    color:red;
+    color:rgb(25, 108, 224);;
     margin-left:3px;
 }
 
 .tk{background-color:transparent;
-    border:2px solid red;
+    border:2px solid rgb(25, 108, 224);;
     text-decoration: none;
     border-radius:50%;
     padding: 6px;
-    color:red;
+    color:rgb(25, 108, 224);
     margin-left: 3px;
 }
 
 
 .sc{background-color:transparent;
-    border:2px solid red;
+    border:2px solid rgb(25, 108, 224);;
     text-decoration: none;
     border-radius:50%;
     padding: 6px;
-    color:red;
+    color:rgb(25, 108, 224);;
     margin-left:3px;
 
 }
 
-#lo{margin-bottom: 35px;}
+#lo{margin-top: 35px;}
+
 </style>
 </head>
 <body>
-<b style="font-family: sans-serif; color:red; font-weight: 800; font-size: 19px; margin-left: 8px;">Khojo</b>
+<b style="font-family: sans-serif; color: white;; font-weight: 800; font-size: 25px; margin-left: 12px;">Khojo.</b>
 
-<a href="hhome.html" class="hme">Home</a>
-<a href="aaboutme.html" class="abt">About Me</a>
-<a href="Porfolio.html" class="pot">Portfolio</a>
-<a href="ccontact.html" class="con">Contact</a>
+<a href="" style="float: right; font-size: 27px;margin-right: 25px;color: aliceblue;"><i class="fa-solid fa-bars"></i></a>
 
 
-<center>
-<img src="spider.jpg" class="spi">
+<center class="spii">
+<img src="ein.jpg" class="spi">
 </center>
 
 <center style="margin-bottom: 14px;">
-<h2>Hi, I'm <span>Kingsford Kojo</span><br><h3><span>Frontend Developer</span></h3>
+<h2>Kingsford Kojo<br><h2><span>Frontend Developer</span></h2>
 Welcome to my world of pixels and code! A passionatefrontend developer with a knack for crafting visually stunning and user friendly websites.
 
 </center>
 
+<center>
+<p>
+<a href="#" class="dl">Download  cv</a>
+<a href="#" class="hi">Cotact Me</a>
+</p></center>
 
 <center>
 <div id="lo">
@@ -127,13 +160,7 @@ Welcome to my world of pixels and code! A passionatefrontend developer with a kn
     <a href="#" class="tw"><i class="fa-brands fa-x-twitter"></i></a>
     <a href="#" class="tk"><i class="fa-brands fa-tiktok"></i></a>
     <a href="#" class="sc"><i class="fa-brands fa-snapchat"></i></a>
-
 </div>
 </center>
-
-<center>
-<p>
-<a href="#" class="hi">Hire Me</a>
-</p></center>
 </body>
 </html>
